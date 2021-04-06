@@ -27,6 +27,10 @@ namespace AxCommander.Controls {
             _imageList.Images.Add( Resources.csharp );
             _imageList.Images.Add( Resources.audio );
             _imageList.Images.Add( Resources.ini );
+            _imageList.Images.Add( "excel", Resources.excel);
+            _imageList.Images.Add( "word", Resources.word );
+            _imageList.Images.Add( "access", Resources.access );
+            _imageList.Images.Add( "xml", Resources.xml );
         }
 
         private DirectoryInfo _currentDirectory;
@@ -532,6 +536,14 @@ namespace AxCommander.Controls {
                 item.ImageIndex = 8;
             else if (file.Extension.ToLower() == ".png" || file.Extension.ToLower() == ".bmp" || file.Extension.ToLower() == ".jpg" || file.Extension.ToLower() == ".jpeg")
                 item.ImageIndex = 4;
+            else if (file.Extension.ToLower() == ".xls" || file.Extension.ToLower() == ".xlsx")
+                item.ImageKey = "excel";
+            else if (file.Extension.ToLower() == ".doc" || file.Extension.ToLower() == ".docx")
+                item.ImageKey = "word";
+            else if (file.Extension.ToLower() == ".mdf")
+                item.ImageKey = "access";
+            else if (file.Extension.ToLower() == ".xml")
+                item.ImageKey = "xml";
             else
                 item.ImageIndex = 1;
 

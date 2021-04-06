@@ -144,6 +144,20 @@ namespace AxCommander
                     ChangeFunctionalButtonsCaptions( null );
                     _keys = null;
                     break;
+                case Keys.Right:
+                    if( _currentFileManager == fileManagerControl1)
+                    {
+                        fileManagerControl2.Focus();
+                        _currentFileManager = fileManagerControl2;
+                    }
+                    break;
+                case Keys.Left:
+                    if (_currentFileManager == fileManagerControl2)
+                    {
+                        fileManagerControl1.Focus();
+                        _currentFileManager = fileManagerControl1;
+                    }
+                    break;
             }
         }
 

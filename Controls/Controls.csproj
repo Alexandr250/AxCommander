@@ -160,5 +160,17 @@
   <ItemGroup>
     <None Include="Resources\go-top_1715.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_file_extension_doc_64202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_file_extension_xls_64274.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_file_extension_mdb_64229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_filetype-18_2814505.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
