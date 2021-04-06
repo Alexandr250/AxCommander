@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C64159F6-E073-4425-AF9F-F6E91E977185}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controls</RootNamespace>
+    <AssemblyName>Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <!--<LangVersion>8.0</LangVersion>-->
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Be.HexEditor">
+      <HintPath>..\Be.HexEditor-master\Be.HexEditor\bin\Debug\Be.HexEditor.exe</HintPath>
+    </Reference>
+    <Reference Include="Be.Windows.Forms.HexBox">
+      <HintPath>..\AxExplorer\bin\Debug\Be.Windows.Forms.HexBox.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP, Version=33.0.3.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentFTP.33.0.3\lib\net45\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TwoLayeredGUI, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b5a116931ab0a8a5, processorArchitecture=x86">
+      <HintPath>..\packages\TwoLayeredGUI.1.1.0\lib\Net40\TwoLayeredGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="TwoLayeredGUI.WinForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b5a116931ab0a8a5, processorArchitecture=x86">
+      <HintPath>..\packages\TwoLayeredGUI.WinForms.1.1.0\lib\Net40\TwoLayeredGUI.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedListViewItem.cs" />
+    <Compile Include="FileListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileManagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileManagerControl.Designer.cs">
+      <DependentUpon>FileManagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileSystemType.cs" />
+    <Compile Include="PerformanceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PerformanceControl.Designer.cs">
+      <DependentUpon>PerformanceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RootsComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SortOder.cs" />
+    <Compile Include="WindowsNative.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileManagerControl.resx">
+      <DependentUpon>FileManagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformanceControl.resx">
+      <DependentUpon>PerformanceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\iconfinder_folder-blue_285658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_file-empty_285688.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_file-zip_285674.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application-x-ms-dos-executable_8240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-21-eye-hidden_314753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileview-preview_3605.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_4046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template_source_4219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unknown_7110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf-document_4797.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-x-csharp_3655.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio-mp3_1251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_gear_3012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utilities-file-archiver_7880.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardwarechip_2870.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-dev-media-cf_1247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DriveComboBox\DriveComboBox.csproj">
+      <Project>{56AF998F-47C2-4754-8453-08F461B2A719}</Project>
+      <Name>DriveComboBox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-top_1715.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

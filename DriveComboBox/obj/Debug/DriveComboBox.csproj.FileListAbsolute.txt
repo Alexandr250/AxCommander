@@ -1,0 +1,10 @@
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\bin\Debug\DriveComboBox.dll
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\bin\Debug\DriveComboBox.pdb
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.csprojAssemblyReference.cache
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\ZinoLib.Windows.Controls.DriveComboBox.resources
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\ZinoLib.Windows.Controls.ImageCombo.resources
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.Properties.Resources.resources
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.csproj.GenerateResource.cache
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.dll
+C:\Users\home\source\repos\AxExplorer\DriveComboBox\obj\Debug\DriveComboBox.pdb

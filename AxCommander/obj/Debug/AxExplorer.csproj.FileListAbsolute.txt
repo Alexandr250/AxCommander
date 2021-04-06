@@ -1,0 +1,17 @@
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\AxExplorer.exe.config
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\AxExplorer.exe
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\AxExplorer.pdb
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.csprojAssemblyReference.cache
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.Properties.Resources.resources
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.csproj.GenerateResource.cache
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.exe
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.pdb
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\Controls.dll
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\Controls.pdb
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.csproj.CopyComplete
+C:\Users\home\source\repos\AxExplorer\AxExplorer\obj\Debug\AxExplorer.FormMain.resources
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\TwoLayeredGUI.dll
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\TwoLayeredGUI.WinForms.dll
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\TwoLayeredGUI.xml
+C:\Users\home\source\repos\AxExplorer\AxExplorer\bin\Debug\TwoLayeredGUI.WinForms.xml
